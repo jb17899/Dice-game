@@ -123,3 +123,5 @@ else{
 
     document.querySelector(".Refresh").innerHTML="NO ONE won! DRAW"; 
 }
+setTimeout(function(){document.querySelector(".Refresh").innerHTML = "Refresh ME";
+},2000);
